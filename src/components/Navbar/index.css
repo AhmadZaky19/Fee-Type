@@ -1,0 +1,23 @@
+.user__image {
+  height: 6vh;
+  width: 6vh;
+  margin-left: 2vh;
+}
+
+.user__image--dropdown {
+  height: 6vh;
+  width: 6vh;
+}
+
+.user__name {
+  line-height: 3vh;
+}
+
+.user__role {
+  line-height: 0;
+  font-size: 12px;
+}
+
+.dropdown-toggle::after {
+  display: none !important; 
+}
