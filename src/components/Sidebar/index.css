@@ -1,0 +1,13 @@
+.sidebar {
+  background-color: #027F71;
+}
+
+.side__icon {
+  color: #ffffff;
+  cursor: pointer;
+  margin-top: 2vh;
+}
+
+.side__icon:visited {
+  background-color: #FDC300;
+}

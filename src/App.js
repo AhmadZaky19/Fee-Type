@@ -1,26 +1,23 @@
 import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
+import { Row, Col } from "react-bootstrap";
 import Navigation from "./components/Navbar";
+import Sidebar from "./components/Sidebar";
+// import FeeType from "./pages/FeeType";
 
 function App() {
   return (
     <div className="App">
-      <Navigation />
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Row>
+        <Col md={1} lg={1} className="nav__section--left">
+          <Sidebar />
+        </Col>
+        <Col md={11} lg={11} className="nav__section">
+          <Navigation />
+          {/* <FeeType /> */}
+        </Col>
+      </Row>
     </div>
   );
 }

@@ -2,6 +2,17 @@
   text-align: center;
 }
 
+.nav__section {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.nav__section--left {
+  padding: 0 !important;
+  margin: 0 !important;
+  background-color: #027F71 !important;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
