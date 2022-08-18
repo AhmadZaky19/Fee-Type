@@ -15,7 +15,7 @@ import "./index.css";
 function Navigation() {
   const UserMenu = <Image src={user} roundedCircle className="user__image" />;
   return (
-    <Navbar className="nav">
+    <Navbar className="nav__top">
       <Navbar.Brand>
         <img src={logo} width="160" height="50" className="d-inline-block align-top" alt="Logo" />
       </Navbar.Brand>
