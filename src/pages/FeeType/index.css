@@ -1,0 +1,52 @@
+.breadcrumb-item+.breadcrumb-item::before {
+  content: ">";
+}
+
+.button__create {
+  color: black !important;
+  background-color: #F3C244 !important;
+  border-color: #F3C244 !important;
+  margin-left: 1vh
+}
+
+.input__form {
+ margin-right: 4vh;
+}
+
+.card__header {
+  background-color: #FFFFFF !important;
+  border-color: #FFFFFF !important;
+}
+
+.table__section {
+  margin-top: 8vh;
+}
+
+.logo__right {
+  color: #F3F3F3;
+  background-color: #5E5E5E;
+  padding: 7px 10px;
+  border-radius: 100px;
+  margin: 1vh;
+  cursor: pointer;
+}
+
+.filter {
+  border-color: #FFFFFF !important;
+}
+
+.accor__body {
+  background-color: #F5F7F9;
+  border: 1px solid #C7CDD6D9;
+  border-radius: 10px;
+}
+
+.right__Section {
+  display: flex;
+  justify-content: end;
+  height: 50px;
+}
+
+.accor__content {
+  margin: 3vh 160vh 10vh 1vh;
+}
